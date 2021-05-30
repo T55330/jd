@@ -1,0 +1,129 @@
+@import './global';
+
+.jd-core1 {
+
+  background-color: pink;
+  @extend %l-wrapper;
+}
+
+.special-offer {
+  box-sizing: border-box;
+  width: 590px;
+  height: 340px;
+  margin-top: 20px;
+  padding-left: 20px;
+  background-color: white;
+  overflow: hidden;
+
+  &__top {
+    margin: 10px 0;
+    margin-right: 20px;
+  }
+
+  &__left {
+    float: left;
+
+    h3 {
+      display: inline-block;
+      margin-right: 5px;
+      font: normal bold 25px '';
+
+      &:hover {
+        color: initial;
+      }
+    }
+
+    .iconxiangyouxuanze {
+      vertical-align: 1px;
+    }
+
+  }
+
+  &__right {
+    display: flex;
+    float: right;
+  }
+
+  &__item {
+    margin: 5px 10px;
+    font: normal 400 16px '';
+  }
+
+  &__to-target {
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-color: red;
+    }
+  }
+
+  &__main {
+    height: 270px;
+  }
+
+  &__left-item {
+    float: left;
+    background-color: $font-color;
+  }
+
+  &__lk {
+    position: relative;
+    display: block;
+    width: 170px;
+    height: 270px;
+    background-color: rgb(243, 242, 242);
+    text-align: center;
+  }
+
+  &__tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 24px;
+    background-color: #f7a400;
+    color: white;
+    line-height: 24px;
+  }
+
+  &__title-img {
+    width: 120px;
+    margin-top: 45px;
+  }
+
+  &__item-name {
+    margin: 5px 0;
+    font: normal 400 14px '';
+  }
+
+  &__price-true {
+    margin: 5px 0;
+    color: red;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__price-false {
+    color: rgb(161, 158, 158);
+    text-decoration: line-through;
+  }
+
+  &__robbed {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  &__right-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  &__tab {
+    width: 180px;
+    height: 120px;
+    background-color: #f7a400;
+  }
+}

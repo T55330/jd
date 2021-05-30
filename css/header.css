@@ -1,0 +1,149 @@
+.header-inner {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+
+.header-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  background-color: white;
+}
+.header-inner__logo #logo {
+  height: 140px;
+}
+.header-inner__search {
+  flex: auto;
+  padding-top: 25px;
+}
+.header-inner__search .search__box {
+  display: flex;
+  float: left;
+  box-sizing: border-box;
+  width: 550px;
+  height: 40px;
+  margin: 0 20px;
+  border: 2px solid red;
+}
+.header-inner__search .search__box .iconxiangji {
+  margin: auto 10px;
+  cursor: pointer;
+}
+.header-inner__search .search__bar {
+  width: 100%;
+  padding-left: 15px;
+  border: none;
+  caret-color: #e1251b;
+  outline: none;
+}
+.header-inner__search .search__submit-text {
+  box-sizing: border-box;
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  background-color: #e1251b;
+  transform: translate(1px, -0.5px);
+  transition: all 0.5s;
+}
+.header-inner__search .search__submit-text:hover {
+  background-color: #b40c0c;
+}
+.header-inner__search .search__submit-text .iconfangdajing {
+  color: white;
+  font-size: 20px;
+}
+.header-inner__search .shopping {
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 36px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: red;
+  line-height: 36px;
+  text-align: center;
+}
+.header-inner__search .shopping:hover {
+  border: 1px solid red;
+}
+.header-inner__search .shopping .iconicon-test {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.header-inner__search .shopping__car:visited {
+  color: red;
+}
+.header-inner__search .shopping__goods-count {
+  position: absolute;
+  top: 0px;
+  left: 35px;
+  padding: 0 6px;
+  border-radius: 7px;
+  font-style: normal;
+  background-color: #e1251b;
+  color: white;
+  line-height: initial;
+}
+.header-inner__search .hotwords {
+  padding: 5px 20px 0;
+}
+.header-inner__search .hotwords__item {
+  float: left;
+  margin: 0 5px;
+}
+.header-inner__search .hotwords .current a:visited {
+  color: red;
+}
+.header-inner__search .navitems {
+  position: absolute;
+  bottom: 8px;
+  font-size: 15px;
+}
+.header-inner__search .navitems__look-my {
+  float: left;
+  margin: 0 10px;
+}
+.header-inner__search .navitems__look-my:first-child {
+  margin-left: 0;
+  font-weight: 700;
+}
+.header-inner__search .navitems__look-my:first-child > a:visited {
+  color: red;
+}
+.header-inner__search .navitems__look-my:nth-child(2) {
+  font-weight: 700;
+}
+.header-inner__search .navitems__look-my:nth-child(2) > a:visited {
+  color: red;
+}
+.header-inner__search .navitems__look-my:last-child {
+  position: relative;
+}
+.header-inner__search .navitems__icon-hot {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  width: 30px;
+  height: 15px;
+  background-image: url("../images/s.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-inner__promo {
+  width: 190px;
+  height: 120px;
+  margin-top: 10px;
+}
+.header-inner__promo .promo__to {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/promo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
